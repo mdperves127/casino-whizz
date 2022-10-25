@@ -261,6 +261,85 @@ body {
             font-size: 14px;
             font-weight: 400;
             line-height: 21px; }
+  body #other_games {
+    padding: 80px 0; }
+    body #other_games h1 {
+      color: #fff;
+      font-size: 48px;
+      font-weight: 500;
+      line-height: 68px;
+      margin-bottom: 0;
+      text-align: center; }
+    body #other_games ul {
+      text-align: center;
+      padding-left: 0; }
+      body #other_games ul .active {
+        background: #FF6600;
+        border-radius: 5px; }
+      body #other_games ul li {
+        display: inline-block;
+        margin-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 34px;
+        transition: all linear .3s; }
+        body #other_games ul li:hover {
+          background: #FF6600;
+          border-radius: 5px;
+          transition: all linear .3s; }
+    body #other_games .game_card {
+      position: relative; }
+      body #other_games .game_card img {
+        width: 100%;
+        border-radius: 24px; }
+      body #other_games .game_card .details {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background: #008543;
+        padding: 16px 22px;
+        border-bottom-left-radius: 24px;
+        border-bottom-right-radius: 24px; }
+        body #other_games .game_card .details h5 {
+          color: #fff;
+          font-size: 28px;
+          font-weight: 500;
+          line-height: 54px;
+          margin-bottom: 0; }
+        body #other_games .game_card .details p {
+          color: #fff;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 26px; }
+        body #other_games .game_card .details span {
+          color: #fff;
+          font-size: 18px;
+          font-weight: 400; }
+        body #other_games .game_card .details .play_now {
+          margin-top: 15%; }
+          body #other_games .game_card .details .play_now a {
+            transition: all linear .3s; }
+            body #other_games .game_card .details .play_now a:hover {
+              background: transparent;
+              transition: all linear .3s; }
+    body #other_games .browse_all {
+      transition: all linear .3s; }
+      body #other_games .browse_all:hover {
+        background: transparent;
+        transition: all linear .3s; }
+    body #other_games .paragraph {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 40px;
+      margin-top: 70px;
+      margin-bottom: 50px; }
+      body #other_games .paragraph span {
+        color: #FF6600; }
   body #latest_posts {
     padding: 80px 0; }
     body #latest_posts .blogs h1 {

@@ -341,6 +341,122 @@ body {
         }
     }
 
+    #other_games {
+        padding: 80px 0;
+
+        h1 {
+            color: #fff;
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 68px;
+            margin-bottom: 0;
+            text-align: center;
+        }
+
+        ul {
+            text-align: center;
+            padding-left: 0;
+
+            .active {
+                background: #FF6600;
+                border-radius: 5px;
+            }
+
+            li {
+                display: inline-block;
+                margin-top: 20px;
+                padding-left: 15px;
+                padding-right: 15px;
+                color: #fff;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 34px;
+                transition: all linear .3s;
+
+                &:hover {
+                    background: #FF6600;
+                    border-radius: 5px;
+                    transition: all linear .3s;
+                }
+            }
+        }
+
+        .game_card {
+            position: relative;
+
+            img {
+                width: 100%;
+                border-radius: 24px;
+            }
+
+            .details {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background: #008543;
+                padding: 16px 22px;
+                border-bottom-left-radius: 24px;
+                border-bottom-right-radius: 24px;
+
+                h5 {
+                    color: #fff;
+                    font-size: 28px;
+                    font-weight: 500;
+                    line-height: 54px;
+                    margin-bottom: 0;
+                }
+
+                p {
+                    color: #fff;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 26px;
+                }
+
+                span {
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+
+                .play_now {
+                    margin-top: 15%;
+
+                    a {
+                        transition: all linear .3s;
+
+                        &:hover {
+                            background: transparent;
+                            transition: all linear .3s;
+                        }
+                    }
+                }
+            }
+        }
+
+        .browse_all {
+            transition: all linear .3s;
+
+            &:hover {
+                background: transparent;
+                transition: all linear .3s;
+            }
+        }
+
+        .paragraph {
+            color: #fff;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 40px;
+            margin-top: 70px;
+            margin-bottom: 50px;
+            span {
+                color: #FF6600;
+            }
+        }
+    }
+
     #latest_posts {
         padding: 80px 0;
 
@@ -523,7 +639,8 @@ body {
                 }
             }
         }
-        .copy_right{
+
+        .copy_right {
             text-align: center;
             color: #fff;
             font-size: 12px;
