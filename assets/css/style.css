@@ -340,6 +340,82 @@ body {
       margin-bottom: 50px; }
       body #other_games .paragraph span {
         color: #FF6600; }
+  body #casino_location .location .exclusive_bonus {
+    padding: 60px;
+    border-radius: 24px; }
+    body #casino_location .location .exclusive_bonus .double {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 28px;
+      text-align: center; }
+    body #casino_location .location .exclusive_bonus .claim_card {
+      width: 250px;
+      background: #FF6600;
+      border-radius: 12px; }
+      body #casino_location .location .exclusive_bonus .claim_card img {
+        width: 100%; }
+      body #casino_location .location .exclusive_bonus .claim_card .detail {
+        padding: 10px; }
+        body #casino_location .location .exclusive_bonus .claim_card .detail p {
+          color: #008543;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 26px;
+          margin-bottom: 0; }
+        body #casino_location .location .exclusive_bonus .claim_card .detail span {
+          color: #fff;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 24px; }
+        body #casino_location .location .exclusive_bonus .claim_card .detail a {
+          padding: 5px;
+          color: #fff;
+          font-size: 18px;
+          background: #008543;
+          border-radius: 10px;
+          border: 1px solid #008543;
+          transition: all linear .3s; }
+          body #casino_location .location .exclusive_bonus .claim_card .detail a:hover {
+            background: transparent;
+            transition: all linear .3s; }
+    body #casino_location .location .exclusive_bonus .bonus_heading {
+      color: #fff;
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 52px;
+      text-align: center;
+      padding-left: 20px;
+      padding-top: 70px; }
+      body #casino_location .location .exclusive_bonus .bonus_heading span {
+        color: #FF6600; }
+    body #casino_location .location .exclusive_bonus .promo_code {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 26px;
+      padding-top: 70px;
+      padding-bottom: 10px; }
+  body #casino_location .location .locations h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 70px;
+    border-bottom: 1px solid #999;
+    padding-bottom: 10px; }
+  body #casino_location .location .locations ul {
+    padding-left: 0; }
+    body #casino_location .location .locations ul li {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 35px;
+      border-bottom: 1px solid #999;
+      transition: all linear .3s; }
+      body #casino_location .location .locations ul li:hover {
+        color: #FF6600;
+        border-bottom: 1px solid #FF6600;
+        transition: all linear .3s; }
   body #latest_posts {
     padding: 80px 0; }
     body #latest_posts .blogs h1 {

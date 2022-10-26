@@ -451,8 +451,124 @@ body {
             line-height: 40px;
             margin-top: 70px;
             margin-bottom: 50px;
+
             span {
                 color: #FF6600;
+            }
+        }
+    }
+
+    #casino_location {
+        .location {
+            .exclusive_bonus {
+                padding: 60px;
+                border-radius: 24px;
+
+                .double {
+                    color: #fff;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    text-align: center;
+                }
+
+                .claim_card {
+                    width: 250px;
+                    background: #FF6600;
+                    border-radius: 12px;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    .detail {
+                        padding: 10px;
+
+                        p {
+                            color: #008543;
+                            font-size: 20px;
+                            font-weight: 400;
+                            line-height: 26px;
+                            margin-bottom: 0;
+                        }
+
+                        span {
+                            color: #fff;
+                            font-size: 18px;
+                            font-weight: 400;
+                            line-height: 24px;
+                        }
+
+                        a {
+                            padding: 5px;
+                            color: #fff;
+                            font-size: 18px;
+                            background: #008543;
+                            border-radius: 10px;
+                            border: 1px solid #008543;
+                            transition: all linear .3s;
+
+                            &:hover {
+                                background: transparent;
+                                transition: all linear .3s;
+                            }
+
+                        }
+                    }
+                }
+
+                .bonus_heading {
+                    color: #fff;
+                    font-size: 32px;
+                    font-weight: 500;
+                    line-height: 52px;
+                    text-align: center;
+                    padding-left: 20px;
+                    padding-top: 70px;
+
+                    span {
+                        color: #FF6600;
+                    }
+                }
+
+                .promo_code {
+                    color: #fff;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    padding-top: 70px;
+                    padding-bottom: 10px;
+                }
+            }
+
+            .locations {
+                h1 {
+                    color: #fff;
+                    font-size: 48px;
+                    font-weight: 500;
+                    line-height: 70px;
+                    border-bottom: 1px solid #999;
+                    padding-bottom: 10px;
+                }
+
+                ul {
+                    padding-left: 0;
+
+                    li {
+                        color: #fff;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 35px;
+                        border-bottom: 1px solid #999;
+                        transition: all linear .3s;
+
+                        &:hover {
+                            color: #FF6600;
+                            border-bottom: 1px solid #FF6600;
+                            transition: all linear .3s;
+                        }
+                    }
+                }
             }
         }
     }
