@@ -9,6 +9,11 @@ $(function () {
   })
   wow.init();
 
+
+  //products part
+  var containerEl = document.querySelector(".filter");
+  var mixer = mixitup(containerEl);
+
 });
 
 
